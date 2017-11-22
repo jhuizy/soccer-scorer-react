@@ -26,7 +26,7 @@ const App = (props) => {
   return (
     <MuiThemeProvider>
       <div className={classes.root}>
-        <AppBar position="static" color="default">
+        <AppBar position="static">
           <Toolbar>
             <Typography type="title" color="inherit">
               Soccer Scorer
